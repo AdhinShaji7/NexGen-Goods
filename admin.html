@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/admin logo.jpg">
+</head>
+<body>
+    <div class="dashboard">
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>NexGen Goods</h2>
+            </div>
+            <ul>
+                <li class="active"><a href="admin.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="product.html"><i class="fas fa-box"></i> Products</a></li>
+                <li><a href="admin order.html"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+                <li><a href="customers.html"><i class="fas fa-users"></i> Customers</a></li>
+                <li><a href="settings.html"><i class="fas fa-sign-out-alt"></i> Settings</a></li>
+                <li><a href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <header>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="user-info">
+                    <span>Welcome, NexGen</span>
+                    <img src="img/admin logo.jpg" alt="Admin Avatar">
+                </div>
+            </header>
+            <div class="dashboard-content">
+                <h1>Dashboard Overview</h1>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-shopping-bag"></i>
+                        <h3>Total Sales</h3>
+                        <p>35,5669</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>New Customers</h3>
+                        <p>24500</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-box"></i>
+                        <h3>Total Products</h3>
+                        <p>10,2003698</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Revenue Growth</h3>
+                        <p>+65%</p>
+                    </div>
+                </div>
+                <div class="recent-activity">
+                    <h2>Recent Activity</h2>
+                    <ul>
+                        <li>New order,1000 Smart Phone</li>
+                        <li>Product "Wireless Earbuds" is low on stock</li>
+                        <li>Customer Anna left a 5-star review</li>
+                        <li>New 10099 users registered</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Copyright &copy; 2024 NexGen Goods</span>
+        </div>
+    </footer>
+</body>
+</html>

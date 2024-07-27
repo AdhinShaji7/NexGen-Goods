@@ -1,0 +1,142 @@
+/* Color Palette:
+   Primary Color: #3b8d99 (Teal)
+   Secondary Color: #f2c14e (Golden Yellow)
+   Accent Color: #e94f77 (Coral Pink)
+   Background Color: #f8f9fa (Light Gray)
+   Text Color: #333 (Dark Gray)
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3b8d99; /* Teal */
+    color: #fff;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+    
+}
+
+.home-button {
+    background: #f2c14e; /* Golden Yellow */
+    color: #333;
+    text-decoration: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.home-button:hover {
+    background: #e2b744; /* Slightly darker Golden Yellow */
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    background: #e94f77; /* Coral Pink */
+}
+
+.nav-link:hover {
+    background: #d83f63; /* Slightly darker Coral Pink */
+}
+
+.container {
+    width: 80%;
+    margin: 80px auto 0; /* Adjust top margin to avoid overlap with fixed header */
+    overflow: hidden;
+}
+
+.category-content {
+    background: #fff;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #3b8d99; /* Teal */
+    color: #fff;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em;
+}
+
+button:hover {
+    background: #337b8d; /* Slightly darker Teal */
+}
+
+.buy-now {
+    background: #e94f77; /* Coral Pink */
+}
+
+.buy-now:hover {
+    background: #d83f63; /* Slightly darker Coral Pink */
+}
+
+.wishlist {
+    background: #f2c14e; /* Golden Yellow */
+}
+
+.wishlist:hover {
+    background: #e2b744; /* Slightly darker Golden Yellow */
+}
+
+
+/* Footer */
+.footer {
+    color: #343a40;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    margin-top: 20px;
+}
+
+.footer span {
+    font-size: 0.9rem;
+}

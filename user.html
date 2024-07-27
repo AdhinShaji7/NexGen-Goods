@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard - NexGen Goods</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/user.css"> <!-- Your custom CSS file -->
+  <link rel="icon" type="image/x-icon" href="img/admin logo.jpg">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">NexGen Goods</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="user.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="my cart.html">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="edit profile.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="user product.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-9">
+        <!-- Welcome Message -->
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">Welcome, Anna!</h5>
+            <p class="card-text">New updates:</p>
+          </div>
+        </div>
+
+        <!-- Recent Orders -->
+        <div class="card mb-4">
+          <div class="card-header">
+            Recent Orders
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Head Phones
+                <span class="badge badge-primary badge-pill">Shipped</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Smart Watche
+                <span class="badge badge-success badge-pill">Delivered</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Laptop
+                <span class="badge badge-warning badge-pill">Processing</span>
+              </li>
+            </ul>
+            <!-- <a href="#" class="btn btn-outline-primary mt-3">View All Orders</a> -->
+          </div>
+        </div>
+
+        <!-- Recommended Products -->
+        <div class="card mb-4">
+          <div class="card-header">
+            Recommended for You
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="img/o3.webp" class="card-img-top" alt="Product 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Nike Shoes</h5>
+                    <p class="card-text">15899</p>
+                    <a href="#" class="btn btn-sm btn-primary">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="img/order 2.webp" class="card-img-top" alt="Product 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Air pods</h5>
+                    <p class="card-text">39999</p>
+                    <a href="#" class="btn btn-sm btn-primary">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="img/order.webp" class="card-img-top" alt="Product 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Sky Bags</h5>
+                    <p class="card-text">5999</p>
+                    <a href="#" class="btn btn-sm btn-primary">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <!-- User Profile Summary -->
+        <div class="card mb-4">
+          <div class="card-header">
+            My Profile
+          </div>
+          <div class="card-body">
+            <p><strong>Name:</strong> Anna Susan</p>
+            <p><strong>Email:</strong> annasusan@gmail.com</p>
+            <p><strong>Member Since:</strong> Jan 2020</p>
+            <a href="edit profile.html" class="btn btn-outline-secondary btn-sm">Edit Profile</a>
+          </div>
+        </div>
+
+      
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+        <span class="text-muted">Copyright &copy; 2024 NexGen Goods</span>
+    </div>
+  </footer>
+
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

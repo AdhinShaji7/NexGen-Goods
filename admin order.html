@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders - Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/admin logo.jpg">
+</head>
+<body>
+    <div class="dashboard">
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>NexGen Goods</h2>
+            </div>
+            <ul>
+                <li><a href="admin.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="product.html"><i class="fas fa-box"></i> Products</a></li>
+                <li class="active"><a href="admin order.html"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+                <li><a href="customers.html"><i class="fas fa-users"></i> Customers</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <header>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search orders...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="user-info">
+                    <span>Welcome, NexGen</span>
+                    <img src="https://via.placeholder.com/40" alt="Admin Avatar">
+                </div>
+            </header>
+            <div class="orders-content">
+                <h1>Orders Management</h1>
+                <div class="order-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-clipboard-list"></i>
+                        <h3>Total Orders</h3>
+                        <p>15589234</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-truck"></i>
+                        <h3>Pending Shipments</h3>
+                        <p>566895</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-exchange-alt"></i>
+                        <h3>Returns</h3>
+                        <p>2300</p>
+                    </div>
+                </div>
+                <div class="order-list">
+                    <h2>Recent Orders</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Date</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2564</td>
+                                <td>John </td>
+                                <td>2023-05-15</td>
+                                <td>22250.00</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td><button class="btn-view">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>654878</td>
+                                <td>Jane Smith</td>
+                                <td>2023-05-14</td>
+                                <td>12050</td>
+                                <td><span class="status shipped">Shipped</span></td>
+                                <td><button class="btn-view">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>56478</td>
+                                <td>Bob Johnson</td>
+                                <td>2023-05-13</td>
+                                <td>7525</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                                <td><button class="btn-view">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>12347</td>
+                                <td> Johnson</td>
+                                <td>2023-05-13</td>
+                                <td>75525</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                                <td><button class="btn-view">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>2457</td>
+                                <td>BoJ</td>
+                                <td>2023-05-13</td>
+                                <td>58726</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                                <td><button class="btn-view">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>4578</td>
+                                <td> John</td>
+                                <td>2023-05-13</td>
+                                <td>257896</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                                <td><button class="btn-view">View</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Copyright &copy; 2024 NexGen Goods</span>
+        </div>
+    </footer>
+</body>
+</html>

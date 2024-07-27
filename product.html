@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Admin Dashboard</title>
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/admin logo.jpg">
+</head>
+<body>
+    <div class="dashboard">
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>NexGen Goods</h2>
+            </div>
+            <ul>
+                <li><a href="admin.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li class="active"><a href="product.html"><i class="fas fa-box"></i> Products</a></li>
+                <li><a href="admin order.html"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+                <li><a href="customers.html"><i class="fas fa-users"></i> Customers</a></li>
+                <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <header>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search products...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="user-info">
+                    <span>Welcome, NexGen</span>
+                    <img src="https://via.placeholder.com/40" alt="Admin Avatar">
+                </div>
+            </header>
+            <div class="products-content">
+                <h1>Product Management</h1>
+                <div class="product-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-box"></i>
+                        <h3>Total Products</h3>
+                        <p>12002257</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>Low Stock</h3>
+                        <p>23336</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Top Rated</h3>
+                        <p>15656</p>
+                    </div>
+                </div>
+                <div class="product-list">
+                    <div class="product-header">
+                        <h2>Product List</h2>
+                        <button class="btn-add"><i class="fas fa-plus"></i> Add New Product</button>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product ID</th>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>Stock</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>66887</td>
+                                <td>Wireless Earbuds</td>
+                                <td>Electronics</td>
+                                <td>957534</td>
+                                <td>12032</td>
+                                <td>
+                                    <button class="btn-edit"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-delete"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6548</td>
+                                <td>Smart Watch</td>
+                                <td>Electronics</td>
+                                <td>659874</td>
+                                <td>85</td>
+                                <td>
+                                    <button class="btn-edit"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-delete"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5876</td>
+                                <td>Laptop Backpack</td>
+                                <td>Accessories</td>
+                                <td>20000000</td>
+                                <td>200</td>
+                                <td>
+                                    <button class="btn-edit"><i class="fas fa-edit"></i></button>
+                                    <button class="btn-delete"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted">Copyright &copy; 2024 NexGen Goods</span>
+        </div>
+    </footer>
+</body>
+</html>
